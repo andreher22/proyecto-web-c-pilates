@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PilatesAndi | Pilates en casa</title>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#inicio" class="logo">
+                <span data-feather="activity"></span>
+                <strong>PilatesAndi</strong>
+            </a>
+
+            <!-- Botón menú hamburguesa -->
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span data-feather="menu"></span>
+            </button>
+
+            <nav class="nav">
+                <a href="#beneficios">Pilates</a>
+                <a href="#tipos">Tipos</a>
+                <a href="#rutinas">Rutinas</a>
+                <a href="#clases">Clases</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Pilates desde casa</h1>
+            <p>
+                Ejercicio de bajo impacto para mejorar tu salud, postura y bienestar,
+                sin importar tu edad o el tiempo disponible.
+            </p>
+            <a href="#rutinas" class="btn-primary">Comenzar ahora</a>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- ===== BENEFICIOS ===== -->
+        <section class="beneficios" id="beneficios">
+            <h2>¿Qué es Pilates y por qué hacerlo en casa?</h2>
+
+            <div class="beneficios-grid">
+                <article>
+                    <span data-feather="heart"></span>
+                    <h3>Bajo impacto</h3>
+                    <p>Seguro para todas las edades y niveles.</p>
+                </article>
+
+                <article>
+                    <span data-feather="clock"></span>
+                    <h3>Flexible</h3>
+                    <p>Entrena cuando tengas tiempo.</p>
+                </article>
+
+                <article>
+                    <span data-feather="smile"></span>
+                    <h3>Bienestar</h3>
+                    <p>Mejora cuerpo y mente.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== TIPOS DE PILATES ===== -->
+        <section class="tipos" id="tipos">
+            <h2>Tipos de Pilates</h2>
+
+            <div class="tipos-grid">
+                <article class="card card-barre">
+                    <span data-feather="bar-chart-2"></span>
+                    <h3>Pilates Barre</h3>
+                    <p>Inspirado en el ballet para fuerza y equilibrio.</p>
+                </article>
+
+                <article class="card card-casa">
+                    <span data-feather="home"></span>
+                    <h3>Pilates en Casa</h3>
+                    <p>Rutinas simples sin equipo.</p>
+                </article>
+
+                <article class="card card-asistido">
+                    <span data-feather="settings"></span>
+                    <h3>Pilates Asistido</h3>
+                    <p>Trabajo con máquinas especializadas.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== RUTINAS ===== -->
+        <section class="rutinas" id="rutinas">
+            <h2>Rutinas recomendadas</h2>
+
+            <ul class="rutinas-lista">
+                <li><span data-feather="activity"></span> Core y abdomen</li>
+                <li><span data-feather="trending-up"></span> Piernas y glúteos</li>
+                <li><span data-feather="arrow-up-right"></span> Brazos y postura</li>
+            </ul>
+        </section>
+
+        <!-- ===== CLASES ===== -->
+        <section class="clases" id="clases">
+            <h2>Clases presenciales</h2>
+            <p class="clases-descripcion">
+                Elige la clase que mejor se adapte a tu nivel y agenda.
+            </p>
+
+            <div class="clases-grid">
+
+                <article class="clase-card">
+                    <h3>Pilates Básico</h3>
+                    <p>Ideal para principiantes. Aprende la técnica correcta.</p>
+                    <ul>
+                        <li>🕒 60 minutos</li>
+                        <li>📍 Presencial</li>
+                        <li>⭐ Nivel inicial</li>
+                    </ul>
+                    <button class="btn-clase">Suscribirme</button>
+                </article>
+
+                <article class="clase-card">
+                    <h3>Pilates Intermedio</h3>
+                    <p>Mejora fuerza, control y flexibilidad.</p>
+                    <ul>
+                        <li>🕒 60 minutos</li>
+                        <li>📍 Presencial</li>
+                        <li>⭐ Nivel intermedio</li>
+                    </ul>
+                    <button class="btn-clase">Suscribirme</button>
+                </article>
+
+                <article class="clase-card">
+                    <h3>Pilates Terapéutico</h3>
+                    <p>Enfocado en rehabilitación y bajo impacto.</p>
+                    <ul>
+                        <li>🕒 45 minutos</li>
+                        <li>📍 Presencial</li>
+                        <li>⭐ Nivel suave</li>
+                    </ul>
+                    <button class="btn-clase">Suscribirme</button>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ===== CONTACTO ===== -->
+        <section class="contacto" id="contacto">
+            
+            <div class="contacto-box">
+                <h2>Contacto</h2>
+
+                <p>
+                    ¿Tienes dudas o quieres más información?
+                    Escríbenos y con gusto te responderemos.
+                </p>
+
+                <form class="form-contacto">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Email</label>
+                        <input type="email" placeholder="correo@email.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>PilatesAndi · Bienestar desde donde estés</p>
+
+        <div class="footer-icons">
+            <a href="#"><span data-feather="instagram"></span></a>
+            <a href="#"><span data-feather="linkedin"></span></a>
+            <a href="#"><span data-feather="youtube"></span></a>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPT ===== -->
+    <script>
+        feather.replace();
+
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+        });
+    </script>
+
+</body>
+
+</html>
