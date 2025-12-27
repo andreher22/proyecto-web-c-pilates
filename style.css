@@ -1,18 +1,17 @@
-/* ===== RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== BASE ===== */
+/* ---- BASE ---- */
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #333;
   line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
+/* ---- HEADER ---- */
 .header {
   background: #fff;
   border-bottom: 1px solid #ddd;
@@ -56,7 +55,7 @@ body {
   cursor: pointer;
 }
 
-/* ===== HERO ===== */
+/* ---- HERO ---- */
 .hero {
   background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),
     url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74") center/cover;
@@ -80,7 +79,7 @@ body {
   border-radius: 25px;
 }
 
-/* ===== SECCIONES ===== */
+/* ----- SECCIONES ----- */
 section {
   padding: 4rem 1rem;
   max-width: 1200px;
@@ -92,7 +91,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-/* ===== BENEFICIOS ===== */
+/* ----- BENEFICIOS ----- */
 .beneficios-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -100,7 +99,7 @@ h2 {
   text-align: center;
 }
 
-/* ===== TIPOS ===== */
+/* ----- TIPOS ----- */
 .tipos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -132,7 +131,7 @@ h2 {
   background: linear-gradient(135deg, #2c7a7b, #2a6570);
 }
 
-/* ===== RUTINAS ===== */
+/* ----- RUTINAS ----- */
 .rutinas-lista {
   list-style: none;
   max-width: 400px;
@@ -146,7 +145,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* ===== CLASES ===== */
+/* ----- CLASES ----- */
 .form-suscripcion {
   max-width: 400px;
   margin: auto;
@@ -169,9 +168,9 @@ h2 {
   cursor: pointer;
 }
 
-/* ===== CONTACTO ===== */
+/* ----- CONTACTO ----- */
 .contacto {
-  background: #f7fafc;
+  background: none;
   border-radius: 20px;
 }
 
@@ -188,6 +187,47 @@ h2 {
   flex-direction: column;
 }
 
+
+/* ----- BOTÓN ENVIAR MENSAJE ----- */
+.boton-enviar {
+    text-align: center;
+}
+
+.boton-enviar button {
+  background: linear-gradient(135deg, #2c7a7b, #2a6570);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2.2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(44, 122, 123, 0.3);
+}
+
+/* Hover */
+.boton-enviar button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(44, 122, 123, 0.45);
+  background: linear-gradient(135deg, #2a6570, #2c7a7b);
+}
+
+/* Active */
+.boton-enviar button:active {
+  transform: scale(0.97);
+}
+
+/* ----- RESPONSIVE ----- */
+@media (max-width: 480px) {
+  .boton-enviar button {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 0.95rem;
+  }
+}
+
+
 .campo input,
 .campo textarea {
   padding: .7rem;
@@ -195,7 +235,7 @@ h2 {
   border: 1px solid #ccc;
 }
 
-/* ===== FOOTER ===== */
+/* ----- FOOTER ----- */
 .footer {
   background: #2c7a7b;
   color: #fff;
@@ -208,7 +248,7 @@ h2 {
   margin: 0 .5rem;
 }
 
-/* ===== CLASES PRESENCIALES ===== */
+/* ----- CLASES PRESENCIALES ----- */
 .clases-descripcion {
   text-align: center;
   margin-bottom: 2rem;
@@ -253,7 +293,7 @@ h2 {
   cursor: pointer;
 }
 
-/* ===== CONTACTO (BOX MODEL MARCADO) ===== */
+/* ----- CONTACTO (BOX MODEL MARCADO) ----- */
 .contacto-box {
   max-width: 550px;
   margin: 2rem auto 0;
@@ -270,7 +310,7 @@ h2 {
 }
 
 
-/* ===== RESPONSIVE ===== */
+/* ---- RESPONSIVE ---- */
 @media (max-width: 768px) {
 
   .menu-toggle {
